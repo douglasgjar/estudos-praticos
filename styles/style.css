@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+    --color1: #ffffff;
+    --color2: #000000;
+    --color3: #b4b4b4;
+    --main-font: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color2);
+    font-family: var(--main-font);
+    font-weight: bold;
+    text-align: left;
+    padding: 1%
+}
+
+header > nav :hover {
+    color: var(--color3)
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: var(--color1);
+    padding: 1%
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.home {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 50% 33.34% 33.3%;
+    align-content: center;
+}
+
+.informations {
+    padding: 2%;
+    margin: auto;
+}
+
+.home2 {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 50% 33.34% 33.3%;
+    align-content: center;
+}
+
+.home2 > section > p {
+    padding: 0% 0% 10%;
+}
+
+.home2 > section > h3 {
+    font-weight: lighter;
+    padding: 0% 0% 1%;
+}
+
+.home2 > section > ul {
+    list-style-position:inside
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.5%
+}
+
+footer > p {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#footer-icon {
+    display: flex;
+    align-items: baseline;
+}
+
+.icon-img {
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 5px;
+}
+
+.icon-img:hover {
+    opacity: 50%;
+}
